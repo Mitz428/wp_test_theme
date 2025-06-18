@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <title>私のサイト</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title><?php bloginfo('name'); ?></title>
+  <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 </head>
 <body>
-  <h1>こんにちは！</h1>
-  <p>これは自作サイトです。</p>
+
+<?php get_template_part('header/header'); ?>
+
+<main>
+  <h1>トップページの内容</h1>
+  <p>ここにメインコンテンツを書く</p>
+</main>
+
+<?php get_template_part('footer/footer'); ?>
+
 </body>
 </html>

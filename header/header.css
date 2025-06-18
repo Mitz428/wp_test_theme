@@ -1,0 +1,31 @@
+.bg{
+  padding: 16px;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  top: 16px;
+}
+
+.bg-white{
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: 16px;
+  opacity: 1;
+  height: 64px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  position: absolute;
+}
+
+ul{
+  display: flex;
+  gap: 16px;
+}
+
+li{
+  list-style: none;
+}
